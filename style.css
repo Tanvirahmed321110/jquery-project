@@ -1,0 +1,194 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+#header{
+    background-image: url(HD-wallpaper-hp-laptop-alphabets-computer-dark-gamer-keyboard-logo-qwerty-technology.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+.header-container{
+    background-color: rgba(0, 0, 255, 0.301);
+    height: 400px;
+    width: 100%;
+}
+.header-wraper{
+    display: flex;
+    justify-content: space-between;
+}
+.logo,.nav{
+    padding:15px 15px;
+    color: white;
+    height: 59px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    margin:0 15px;
+    display: inline-block;
+    width: 62px;
+    text-align: center;
+    position: relative;
+}
+.nav a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 0px;
+    left: 25px;
+    height: 1px;
+    background-color: red;
+    transition: all .5s;
+}
+.nav a:hover::after{
+    width: 100%;
+    left: 0px;
+}
+.title{
+    text-align: center;
+    margin-top: -225px;
+    color: white;
+    font-size: 29px;
+    word-spacing: 3px;
+    text-shadow: 0 13px 4px rgb(75, 69, 69) 
+}
+
+.scroll{
+    background-color: rgba(137, 43, 226, 0.616);
+    transition: ease 1s;
+}
+
+
+
+
+/* services */
+.services-wraper{
+    width: 80%;
+    margin: 25px auto;
+    box-sizing: border-box;
+}
+.service-item-wraper{
+    box-shadow: 0px 2px 5px black;
+    padding: 14px;
+    text-align: center;
+    border-radius: 4px;
+}
+.service-item i{
+    padding: 10px;
+    border: 1px solid rgb(61, 61, 61);
+    border-radius: 50%;
+    font-size: 22px;
+    color: green;
+}
+.service-item h4{
+    color: blueviolet;
+    margin: 14px 0;
+}
+.service-item p{
+    font-size: 14px;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+/*  grap chat  */
+.todo-wraper input{
+    margin-bottom:-10px;
+}
+.todo-wraper{
+    height: 300px;
+}
+.fa-solid{
+    margin-left: 12px;
+    cursor: pointer;
+    transition: .5s;
+}
+.fa-solid:hover{
+    color: red;
+}
+
+
+.chatgrap{
+    margin-top: 95px;
+}
+
+
+
+
+/* counter */
+#counter{
+    background-image: url('nature-night-sky-stars-974471.jpeg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    margin-top: 90px;
+    padding: 0;
+}
+.counter-wraper{
+    width: 86%;
+    margin: 0px auto;
+    padding-top: 135px;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+/* slider */
+
+.slider{
+    width: 100%;
+    text-align: center;
+}
+.owl-carousel{
+    width: 90% !important;
+    margin: 0 auto;
+    text-align: center;
+}
+.item{
+    padding: 55px 0;
+    width: 90%;
+    background-color: brown;
+    text-align: center;
+    height: 122px;
+}
+
+
+footer{
+    background-color: rgb(12, 12, 85);
+    padding: 15px;
+}
+.footer-wraper p{
+    padding-left: 20px;
+    font-size: 15px;
+}
+.footer-wraper h3{
+    margin-bottom: 25px;
+}
+
+
+
+/* animated */
+.service-1{
+    opacity: 0;
+}
+
+.service-1.animated{
+    opacity: 1;
+}
